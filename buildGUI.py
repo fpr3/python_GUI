@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 """
 How to Build a GUI in Python 3.5
 http://www.datadependence.com/2016/04/how-to-build-gui-in-python-3/

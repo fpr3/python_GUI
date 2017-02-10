@@ -17,15 +17,26 @@ interface elements and understand the overall implementation issues for the GUI.
 The work is based on Python 3.5 and tkinter.
 
 
-Features
+Features & Modifications
 --------
 
-- Simple adder program to demostrate tkinter GUI development
+- "ttk" elements used for added style value.
+- Simple adder program demonstrates tkinter GUI development in Python3.
+- Added shell commands at top allowing direct program execution.
+- Changed __init__ function to conform with current tkinter docunentation.
+- on_quit with root.destroy() vs. quit() because quit did not give a clean exit.
+The program execution ended but the main window remained open but
+non-functional. Ran into issues in getting root.destroy operating because of
+argument requirements calling on_quit. Seems that self is passed unspecified.
+- Added styled tkinter QUIT button. This was used to test when working out menu
+issues.
+- Included separation of root window and contained app in __main__.
 
 Installation
 ------------
 
 None. This program is intended for standalone use from command line or Idle.
+Configured code file for execution with proper privilege.
 
 Contribute
 ----------

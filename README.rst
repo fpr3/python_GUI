@@ -25,11 +25,11 @@ Features & Modifications
 - Added shell commands at top allowing direct program execution.
 - Changed __init__ function to conform with current tkinter docunentation.
 - on_quit with root.destroy() vs. quit() because quit did not give a clean exit.
-The program execution ended but the main window remained open but
-non-functional. Ran into issues in getting root.destroy operating because of
-argument requirements calling on_quit. Seems that self is passed unspecified.
+  The program execution ended but the main window remained open but
+  non-functional. Ran into issues in getting root.destroy operating because of
+  argument requirements calling on_quit. Seems that self is passed unspecified.
 - Added styled tkinter QUIT button. This was used to test when working out menu
-issues.
+  issues.
 - Included separation of root window and contained app in __main__.
 
 Installation
